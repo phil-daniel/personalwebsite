@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import "./navbar.css"
-import logo from "./picture.png"
+import "./navbar.css";
+import logo from "./picture.png";
 
 export default function Navbar() {
     return <nav className="nav">

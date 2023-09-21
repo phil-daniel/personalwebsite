@@ -1,0 +1,8 @@
+.Contact-Section {
+    text-align: center;
+}
+
+.Contact-List {
+    list-style: None;
+    display: flex;
+}

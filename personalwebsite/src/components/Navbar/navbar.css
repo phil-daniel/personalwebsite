@@ -24,6 +24,15 @@
     height: 200px;
 }
 
+.nav li {
+    color: blue;
+}
+
 .nav li:hover {
-    background-color: #777;
+    color: yellow;
+    background-color: pink;
+}
+
+.nav li:visited {
+    color: blue;
 }
