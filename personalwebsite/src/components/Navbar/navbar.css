@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
   
+.nav a {
+    text-decoration: none;
+}
 
 .nav {
     color: white;
@@ -12,6 +15,7 @@
     padding: 1 5rem;
     font-size: 2rem;
     margin: 1rem;
+    height: 100px;
 }
   
 
@@ -24,15 +28,10 @@
     height: 200px;
 }
 
-.nav li {
-    color: blue;
-}
-
-.nav li:hover {
-    color: yellow;
-    background-color: pink;
-}
-
-.nav li:visited {
-    color: blue;
-}
+.nav a.active {
+    background-color: #555;
+  }
+  
+  .nav a:hover {
+    background-color: #777;
+  }
