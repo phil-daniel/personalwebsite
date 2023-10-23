@@ -2,3 +2,25 @@
     padding: 0 100px;
     font-family: "Raleway", "Lucida Sans", Arial, sans-serif;
 }
+
+.hello {
+    font-size: 3rem;
+}
+
+.main-text {
+    font-size: 1.5rem;
+}
+
+.below-text {
+    font-size: 1.25rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #006aff;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #891de7;
+}

@@ -8,14 +8,14 @@ import "./contact.css";
 export default function Contact() {
     return (
             <>
-                <div className="contact">Contact me:</div>
+                <h1 className="contact-heading">Contact me:</h1>
                 <nav className="contact">
                     <div className="contact-container">
                         <ul className="contact-menu">
                             <li className="contact-item">
                                 <a className="contact-links" href="mailto:phillip.s.w.daniel@gmail.com">
                                     <div>
-                                        <img src={emailIcon} alt="Email Icon"/>
+                                        <img src={emailIcon} alt="Email Icon" class="contact-image"/>
                                     </div>
                                     <div>
                                     Email
@@ -23,23 +23,23 @@ export default function Contact() {
                                 </a>
                             </li>
                             <li className="contact-item">
-                                <a className="contact-links" href="https://github.com/phillip2654">
+                                <a className="contact-links" href="https://www.linkedin.com/in/phillip-daniel/">
                                     <div>
-                                        <img src={githubIcon} alt="Github Icon"/>
+                                        <img src={linkedinIcon} alt="Linkedin Icon" class="contact-image"/>
                                     </div>
-                                    <p>
-                                    GitHub
-                                    </p>
+                                    <div>
+                                    LinkedIn
+                                    </div>
                                 </a>
                             </li>
                             <li className="contact-item">
-                                <a className="contact-links" href="https://www.linkedin.com/in/phillip-daniel/">
+                                <a className="contact-links" href="https://github.com/phillip2654">
                                     <div>
-                                        <img src={linkedinIcon} alt="Linkedin Icon"/>
+                                        <img src={githubIcon} alt="Github Icon" class="contact-image"/>
                                     </div>
-                                    <p>
-                                    LinkedIn
-                                    </p>
+                                    <div>
+                                    GitHub
+                                    </div>
                                 </a>
                             </li>
                         </ul>

@@ -1,5 +1,7 @@
-footer {
+.copyright {
     text-align: center;
     font-size: 0.75rem;
     font-family: "Raleway", "Lucida Sans", Arial, sans-serif;
+    margin: auto 0;
+    display: inline;
 }

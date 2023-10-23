@@ -2,14 +2,13 @@
   font-size: 0.75rem;
   text-align: center;
   font-family: "Raleway", "Lucida Sans", Arial, sans-serif;
-  padding: 0.5rem 1rem;
+  padding: 0;
 }
 
 .sitemap-link {
   color: #000000;
   text-align: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
   height: 100%;
   font-family: "Raleway", "Lucida Sans", Arial, sans-serif;
 }

@@ -1,14 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+import logo from './Images/logo.svg'
+
 import "./navbar.css";
+
 export default function Navbar() {
     return(
         <>
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-home">
-                        phildaniel
+                        <img src={logo} alt="Email Icon" className="logo"/>
+                        <div>phil.daniel</div>
                     </Link>
 
                     <ul className="nav-menu">
@@ -23,9 +27,9 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/cv.pdf"className="nav-links">
+                            <a href="./cv.pdf"className="nav-links">
                                 CV
-                            </Link> 
+                            </a> 
                         </li>
                     </ul>
                 </div>

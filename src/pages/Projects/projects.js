@@ -9,6 +9,7 @@ export default function Home() {
             <h1>
                 Projects
             </h1>
+            <p>Work in progress!</p>
         </div>
     </>);
 }

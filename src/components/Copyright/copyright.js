@@ -4,8 +4,8 @@ import "./copyright.css"
 
 export default function copyright() {
     return <>
-        <footer id="copyright-text">
-            Copyright &copy; 2023 Phillip Daniel. All rights reserved.
-        </footer>
+        <div className="copyright">
+            <p>Copyright &copy; 2023 Phillip Daniel. All rights reserved.</p>
+        </div>
     </>
 }

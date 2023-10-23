@@ -1,14 +1,18 @@
 .navbar {
-  height: 150px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
   top: 0;
   z-index: 999;
 }
   
+.logo {
+  width: 2.5rem;
+  padding: 0;
+}
+
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -63,10 +67,18 @@
 }
   
 .nav-links:hover {
-  color: #3E424B;
+  color: #717275;
   font-weight: bolder;
 }
 
+/*
+Don't really like it!
+
 .navbar-home:hover {
-  color: #3E424B;
+  color: #717275;
 }
+
+.navbar-home:hover .logo {
+  filter: invert(47%) sepia(7%) saturate(151%) hue-rotate(187deg) brightness(92%) contrast(88%);
+}
+*/

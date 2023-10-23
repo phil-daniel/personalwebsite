@@ -9,6 +9,7 @@ export default function Home() {
             <h1>
                 Sitemap
             </h1>
+            <p>Work in Progress!</p>
         </div>
     </>);
 }

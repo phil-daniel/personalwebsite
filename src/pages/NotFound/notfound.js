@@ -7,7 +7,7 @@ export default function Home() {
     return (<>
         <div className="notfound-content">
             <h1>
-                Page does not exist.
+                Error! Page not found!
             </h1>
         </div>
     </>);
