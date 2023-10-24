@@ -2,3 +2,19 @@
     padding: 0 100px;
     font-family: "Raleway", "Lucida Sans", Arial, sans-serif;
 }
+
+.card-wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+}
+
+.card-list {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .card-list {
+        display: inline-flex;
+    }
+}

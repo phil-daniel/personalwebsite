@@ -27,7 +27,7 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <a href="./cv.pdf"className="nav-links">
+                            <a href={process.env.PUBLIC_URL + "/CV.pdf"}className="nav-links">
                                 CV
                             </a> 
                         </li>
