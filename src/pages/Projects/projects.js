@@ -12,7 +12,7 @@ export default function Home() {
                 Projects
             </h1>
             <div className="card-wrapper">
-                <ul className="card-list">
+                <div className="card-grid">
                     <ProjectCard
                         image = "Images/placeholder.png"
                         title = "Placeholder"
@@ -31,7 +31,31 @@ export default function Home() {
                         text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
                         path = "/project/1"
                     />
-                </ul>
+                    <ProjectCard
+                        image = "Images/placeholder.png"
+                        title = "Placeholder"
+                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
+                        path = "/project/1"
+                    />
+                    <ProjectCard
+                        image = "Images/placeholder.png"
+                        title = "Placeholder"
+                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
+                        path = "/project/1"
+                    />
+                    <ProjectCard
+                        image = "Images/placeholder.png"
+                        title = "Placeholder"
+                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
+                        path = "/project/1"
+                    />
+                    <ProjectCard
+                        image = "Images/placeholder.png"
+                        title = "Placeholder"
+                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
+                        path = "/project/1"
+                    />
+                </div>
             </div>
         </div>
     </>);

@@ -12,16 +12,15 @@ export default function Card(content) {
         );
     } else {
         return (
-            <li className="card-element">
+            <div className="card-element">
                 <Link className="card-link" to={content.path}>
-                    <figure className="card-figure" data-category={content.label}>
-                        <img className="card-image" src={content.image} alt={content.title}/>
-                    </figure>
+                    <img className="card-image" src={content.image} alt={content.title}/>
                     <div>
-                        <h5>{content.text}</h5>
+                        <h2 className="card-title">{content.title}</h2>
+                        <h5 className="card-text">{content.text}</h5>
                     </div>
                 </Link>
-            </li>
+            </div>
         );
     }
 }
