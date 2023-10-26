@@ -22,7 +22,7 @@ export default function Home() {
                     <ProjectCard
                         image = "Images/placeholder.png"
                         title = "Placeholder"
-                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
+                        text = "Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
                         path = "/project/1"
                     />
                     <ProjectCard

@@ -15,9 +15,9 @@ export default function Card(content) {
             <div className="card-element">
                 <Link className="card-link" to={content.path}>
                     <img className="card-image" src={content.image} alt={content.title}/>
-                    <div>
+                    <div className="card-text-content">
                         <h2 className="card-title">{content.title}</h2>
-                        <h5 className="card-text">{content.text}</h5>
+                        <p className="card-text">{content.text}</p>
                     </div>
                 </Link>
             </div>
