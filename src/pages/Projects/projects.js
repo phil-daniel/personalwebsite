@@ -11,6 +11,9 @@ export default function Home() {
             <h1>
                 Projects
             </h1>
+            <h3>
+                A selection of some of the things I have worked on in the past!
+            </h3>
             <div className="card-wrapper">
                 <div className="card-grid">
                     <ProjectCard

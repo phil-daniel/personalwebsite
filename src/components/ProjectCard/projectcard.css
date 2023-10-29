@@ -5,7 +5,7 @@
     transition: 0.3s;
     border-radius: 10px;
     text-decoration: none;
-    background-color: #f1f0f0;
+    background-color: #c9c5c5;
 }
 
 .card-text-content {
@@ -13,6 +13,7 @@
 }
 
 .card-link {
+    color: black;
     text-decoration: none;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .card-text {
-    margin: 3px;
+    margin: 5px;
     font-size: .8rem;
 }
 
@@ -41,6 +42,6 @@
     box-shadow: 0 8px 16px 0 rgba(13, 13, 13, 0.2)
 }
 
-.card-element:hover .card-link .card-text-content .card-title {
-    color: red;
+.card-element:hover .card-link .card-text-content {
+    color: #717275;
 }
