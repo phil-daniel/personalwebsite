@@ -11,10 +11,10 @@ export default function Home() {
              I have knowedge in an assortment of language, including C, Python, Haskell, Lua, Go and others,
              and I am currently learning C++. I am constantly looking for ways to improve my programming skills and am also actively looking
              for a summer internship which could help me nurture my interests through experience in the enterprise work,
-             if you have any possibilities, please feel free to contact me below, or have a look through <a href="./projects" className="link">my projects</a>!
+             if you have any possibilities, please feel free to contact me below, or have a look through <Link to="/projects" className="link">Sitemap</Link>!
         </p>
         <p className="below-text">Outside of Computer Science I enjoy travelling, with some of my favourite places being Shenzhen, Hongkong & Prague.
-             you can see some of my favourite photos <a href="" className="link">here</a>!</p>
+             you can see some of my favourite photos <Link to="" className="link">here</Link>!</p>
     </div>
 }
 //Link to travel photos?
