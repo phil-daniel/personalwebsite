@@ -1,5 +1,4 @@
 .Home-Content {
-    padding: 0 100px;
     font-family: "Raleway", "Lucida Sans", Arial, sans-serif;
 }
 
@@ -23,4 +22,31 @@
 
 .link:hover {
     color: #1dc2e7;
+}
+
+@media (max-width: 400px) {
+    .Home-Content {
+        padding: 0 10px;
+    }
+}
+
+
+@media (min-width: 400px) 
+    and (max-width: 600px) {
+    .Home-Content {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 600px) 
+    and (max-width: 800px) {
+    .Home-Content {
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 800px) {
+    .Home-Content {
+        padding: 0 100px;
+    }
 }
