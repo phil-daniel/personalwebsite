@@ -65,12 +65,22 @@
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 800px)
+    and (max-width: 1500px) {
     .projects-content {
         padding: 0 100px;
     }
     .card-grid {
 
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
+}
+
+@media (min-width: 1500px) {
+    .projects-content {
+        padding: 0 100px;
+    }
+    .card-grid {
+        grid-template-columns: repeat(4, 1fr);
+    } 
 }
