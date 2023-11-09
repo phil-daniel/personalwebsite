@@ -17,46 +17,40 @@ export default function Projects() {
             <div className="card-wrapper">
                 <div className="card-grid">
                     <ProjectCard
-                        image = "./Images/placeholder.png"
+                        image = "./Images/website.png"
+                        title = "Portfolio Website"
+                        text = "A website I built using React.js and CSS to improve my frontend development skills and showcase some of the projects that I have done in the past."
+                        path = "/project/website"
+                    />
+                    <ProjectCard
+                        image = "./Images/spotifystats.png"
+                        title = "Spotify Statistics"
+                        text = "TO ADD"
+                        path = "/project/spotify-statistics"
+                    />
+                    <ProjectCard
+                        image = "./Images/accomodation.png"
+                        title = "Accomodation Search"
+                        text = "An automation script to search through popular property renting websites, generating a spreadsheet of properties compatible with inputted requirements."
+                        path = "/project/accomodation-search"
+                    />
+                    <ProjectCard
+                        image = "./Images/scotlandyard.png"
                         title = "Scotland Yard"
-                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
-                        path = "/project/Scotland-Yard"
+                        text = "Modelling the game mechanics of the boardgame Scotland Yard in Java, and creating an opponent AI using Minimax and Dykstra's Shortest Path Algorithm."
+                        path = "/project/scotland-yard"
                     />
                     <ProjectCard
-                        image = "./Images/placeholder.png"
-                        title = "Placeholder"
-                        text = "Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
-                        path = "/project/1"
+                        image = "./Images/pgmimage.png"
+                        title = "PGM Image Compression"
+                        text = "A program to render and convert between '.sketch' files and .pgm image files, using two-dimensional run length encoding for lossless compression."
+                        path = "/project/pgm-image"
                     />
                     <ProjectCard
-                        image = "./Images/placeholder.png"
-                        title = "Placeholder"
-                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
-                        path = "/project/1"
-                    />
-                    <ProjectCard
-                        image = "./Images/placeholder.png"
-                        title = "Placeholder"
-                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
-                        path = "/project/1"
-                    />
-                    <ProjectCard
-                        image = "./Images/placeholder.png"
-                        title = "Placeholder"
-                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
-                        path = "/project/1"
-                    />
-                    <ProjectCard
-                        image = "./Images/placeholder.png"
-                        title = "Placeholder"
-                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
-                        path = "/project/1"
-                    />
-                    <ProjectCard
-                        image = "./Images/placeholder.png"
-                        title = "Placeholder"
-                        text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
-                        path = "/project/1"
+                        image = "./Images/roommapper.png"
+                        title = "Room Mapper Project"
+                        text = "A room mapping product, controlled through a website which uses a Raspberry Pi and LiDAR sensor to take measurements of a room."
+                        path = "/project/room-mapper"
                     />
                 </div>
             </div>
