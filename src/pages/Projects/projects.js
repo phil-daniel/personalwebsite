@@ -22,12 +22,14 @@ export default function Projects() {
                         text = "A website I built using React.js and CSS to improve my frontend development skills and showcase some of the projects that I have done in the past."
                         path = "/project/website"
                     />
+                    {/*
                     <ProjectCard
-                        image = "./Images/spotifystats.png"
+                        image = "./Images/placeholder.png"
                         title = "Spotify Statistics"
                         text = "TO ADD"
                         path = "/project/spotify-statistics"
                     />
+                    */}
                     <ProjectCard
                         image = "./Images/accomodation.png"
                         title = "Accomodation Search"

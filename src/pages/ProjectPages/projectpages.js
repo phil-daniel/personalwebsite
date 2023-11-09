@@ -10,7 +10,7 @@ export default function ProjectPage() {
     const projects = {
         'spotify-statistics': {
             title: "Spotify Statistics",
-            image: "../Images/spotifystats.png",
+            image: "../Images/placeholder.png",
             description: "Placeholder",
             link: "Placeholder",
             additional: "Technologies Used: React.js, CSS",
@@ -38,14 +38,14 @@ export default function ProjectPage() {
         },
         "room-mapper": {
             title: "Room Mapper",
-            image: "",
-            description: "A room mapper product, which used a LiDAR sensor in combination with a Raspberry Pi to, quickly scan a room and produce a floor plan, using python, php and HTML. Also has a web interface allowing for the user to control the settings of the product and add tags to the scan to note furniture. Used python control the LiDAR, interpret calculated distances, and generate a jpeg image floorplan of the room from a NumPy array containing the calculations.",
-            link: "",
-            additional: ""
+            image: "../Images/roommapper.png",
+            description: "A room mapper product, which used a LiDAR sensor in combination with a Raspberry Pi to, quickly scan a room and produce a floor plan, using python, php and HTML. Also has a web interface allowing for the user to control the settings of the product and add tags to the scan to note furniture. Used python control the LiDAR, interpret calculated distances, and generate a jpeg image floorplan of the room from a NumPy array containing the calculations. The report for this project can be found in the github link below.",
+            link: "https://github.com/phil-daniel/Room-Mapper",
+            additional: "Technologies Used: Python, php, HTML"
         },
         "accomodation-search": {
             title: "Automated Accomodation Searcher",
-            image: "",
+            image: "../Images/accomodation.png",
             description: "An automation script to search through popular property renting websites, generating a spreadsheet of properties compatible with inputted requirements (location, number of bedrooms, landlords to avoid, etc).",
             link: "https://github.com/phil-daniel/Automated-Accommodation-Search",
             additional: "Technologies Used: Python, Selenium, openpyxl"
@@ -63,7 +63,7 @@ export default function ProjectPage() {
                             <div>
                                 <img src={githubIcon} alt="Github Icon" class="contact-image"/>
                             </div>
-                            <div className="project-link-text">
+                            <div>
                             View On GitHub
                             </div>
                         </a>
