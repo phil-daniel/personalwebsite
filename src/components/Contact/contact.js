@@ -23,7 +23,7 @@ export default function Contact() {
                                 </a>
                             </li>
                             <li className="contact-item">
-                                <a className="contact-links" href="https://www.linkedin.com/in/phillip-daniel/">
+                                <a className="contact-links" href="https://www.linkedin.com/in/phil-daniel/">
                                     <div>
                                         <img src={linkedinIcon} alt="Linkedin Icon" class="contact-image"/>
                                     </div>

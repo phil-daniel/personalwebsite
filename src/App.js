@@ -7,6 +7,7 @@ import SitemapButton from "./components/Sitemap/sitemap"
 
 import Home from "./pages/Home/home";
 import Projects from "./pages/Projects/projects";
+import ProjectPages from "./pages/ProjectPages/projectpages"
 import Sitemap from "./pages/Sitemap/sitemap"
 import NotFound from "./pages/NotFound/notfound"
 
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<ProjectPages />} />
           <Route path="/sitemap" element={<Sitemap />} />
           <Route path="/cv" />
           <Route path={'*'} element={<NotFound/>}/>

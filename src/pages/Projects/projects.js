@@ -4,7 +4,7 @@ import ProjectCard from "../../components/ProjectCard/projectcard";
 
 import './projects.css';
 
-export default function Home() {
+export default function Projects() {
     {document.title = 'Phil Daniel | Projects';}
     return (<>
         <div className="projects-content">
@@ -20,7 +20,7 @@ export default function Home() {
                         image = "Images/placeholder.png"
                         title = "Placeholder"
                         text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
-                        path = "/project/1"
+                        path = "/project/test"
                     />
                     <ProjectCard
                         image = "Images/placeholder.png"
