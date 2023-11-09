@@ -17,43 +17,43 @@ export default function Projects() {
             <div className="card-wrapper">
                 <div className="card-grid">
                     <ProjectCard
-                        image = "Images/placeholder.png"
-                        title = "Placeholder"
+                        image = "./Images/placeholder.png"
+                        title = "Scotland Yard"
                         text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
-                        path = "/project/test"
+                        path = "/project/Scotland-Yard"
                     />
                     <ProjectCard
-                        image = "Images/placeholder.png"
+                        image = "./Images/placeholder.png"
                         title = "Placeholder"
                         text = "Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
                         path = "/project/1"
                     />
                     <ProjectCard
-                        image = "Images/placeholder.png"
+                        image = "./Images/placeholder.png"
                         title = "Placeholder"
                         text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
                         path = "/project/1"
                     />
                     <ProjectCard
-                        image = "Images/placeholder.png"
+                        image = "./Images/placeholder.png"
                         title = "Placeholder"
                         text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
                         path = "/project/1"
                     />
                     <ProjectCard
-                        image = "Images/placeholder.png"
+                        image = "./Images/placeholder.png"
                         title = "Placeholder"
                         text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
                         path = "/project/1"
                     />
                     <ProjectCard
-                        image = "Images/placeholder.png"
+                        image = "./Images/placeholder.png"
                         title = "Placeholder"
                         text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
                         path = "/project/1"
                     />
                     <ProjectCard
-                        image = "Images/placeholder.png"
+                        image = "./Images/placeholder.png"
                         title = "Placeholder"
                         text = "Placeholder text Placeholder text Placeholder text  Placeholder text  Placeholder text "
                         path = "/project/1"
