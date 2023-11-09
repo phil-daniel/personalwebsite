@@ -47,7 +47,7 @@ export default function ProjectPage() {
             title: "Automated Accomodation Searcher",
             image: "",
             description: "An automation script to search through popular property renting websites, generating a spreadsheet of properties compatible with inputted requirements (location, number of bedrooms, landlords to avoid, etc).",
-            link: "",
+            link: "https://github.com/phil-daniel/Automated-Accommodation-Search",
             additional: "Technologies Used: Python, Selenium, openpyxl"
         },
     };
@@ -55,20 +55,26 @@ export default function ProjectPage() {
     if (id && projects[id] !== undefined) {
         const toRender = projects[id];
         document.title = "Phil Daniel | " + toRender.title
+        let githubLink;
+        if (toRender.link == "") {
+            githubLink = < ></>
+        } else {
+            githubLink = <a className="contact-links project-link" href={toRender.link}>
+                            <div>
+                                <img src={githubIcon} alt="Github Icon" class="contact-image"/>
+                            </div>
+                            <div className="project-link-text">
+                            View On GitHub
+                            </div>
+                        </a>
+        }
         return (
             <div className="project-content">
-                <Link to="/Projects" className="back">Return to Projects</Link>
+                <Link to="/Projects" className="back">&lt; Return to Projects</Link>
                 <h1 className="project-title">{toRender.title}</h1>
                 <img src={toRender.image} alt={toRender.title} className="project-image" />
                 <p className="project-desc">{toRender.description}</p>
-                <a className="contact-links" href={toRender.link}>
-                    <div>
-                        <img src={githubIcon} alt="Github Icon" class="contact-image"/>
-                    </div>
-                    <div>
-                    View On GitHub
-                    </div>
-                </a>
+                {githubLink}
                 <p className="project-additional">{toRender.additional}</p>
             </div>
         );
