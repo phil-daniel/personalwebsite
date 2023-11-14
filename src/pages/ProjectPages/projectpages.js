@@ -20,7 +20,7 @@ export default function ProjectPage() {
             image: "../Images/pgmimage.png",
             description: "A program written in C to convert a PGM image into a ‘.sketch’ file, consisting of the data of every pixel, then render the file using SDL2, and also convert from the sketch file to a PGM image, using two-dimensional run length encoding for lossless compression.",
             link: "Placeholder",
-            additional: "Technologies Used: C, SDL2",
+            additional: "Technologies Used: C, SDL2, Guava Graphs",
         },
         "scotland-yard": {
             title: "Scotland Yard",
