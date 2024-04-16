@@ -8,12 +8,12 @@ import githubIcon from './Images/github.svg'
 export default function ProjectPage() {
     const { id } = useParams(); 
     const projects = {
-        'spotify-statistics': {
-            title: "Spotify Statistics",
+        'game-of-life': {
+            title: "Parallel and Distribution Implementations of Conway's Game of Life",
             image: "../Images/placeholder.png",
-            description: "Placeholder",
-            link: "Placeholder",
-            additional: "Technologies Used: React.js, CSS",
+            description: "Parallel and Distributed implementations of Conway's Game Of Life using Golang, with corresponding benchmarks showing performance differences between versions, including testing the usage of channels vs pure memory sharing (using traditional synchronisation mechanisms - mutex locks, semaphores and condition variabes",
+            link: "",
+            additional: "Technologies Used: GoLang, AWS",
         },
         'pgm-image': {
             title: "PGM Image Compression and Decompression",
