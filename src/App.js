@@ -24,7 +24,6 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectPages />} />
           <Route path="/sitemap" element={<Sitemap />} />
-          <Route path="/cv" />
           <Route path={'*'} element={<NotFound/>}/>
         </Routes>
       </div>
