@@ -1,0 +1,15 @@
+{
+  "short_name": "Phillip's Website",
+  "name": "Phillip's Website",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "type": "image/svg",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
