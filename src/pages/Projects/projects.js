@@ -23,7 +23,7 @@ export default function Projects() {
                         path = "/project/website"
                     />
                     <ProjectCard
-                        image = "./Images/placeholder.png"
+                        image = "./Images/gol.png"
                         title = "Parallel and Distributed Conway's Game of Life"
                         text = "Parallel and Distributed Implementations of Conway's Game of Life, with corresponding performance benchmarking."
                         path = "/project/game-of-life"

@@ -10,7 +10,7 @@ export default function ProjectPage() {
     const projects = {
         'game-of-life': {
             title: "Parallel and Distribution Implementations of Conway's Game of Life",
-            image: "../Images/placeholder.png",
+            image: "../Images/gol.png",
             description: "Parallel and Distributed implementations of Conway's Game Of Life using Golang, with corresponding benchmarks showing performance differences between versions, including testing the usage of channels vs pure memory sharing (using traditional synchronisation mechanisms - mutex locks, semaphores and condition variabes",
             link: "",
             additional: "Technologies Used: GoLang, AWS",
