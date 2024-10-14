@@ -8,6 +8,13 @@ import githubIcon from './Images/github.svg'
 export default function ProjectPage() {
     const { id } = useParams(); 
     const projects = {
+        'napari-omnipose': {
+            title: "Napari Omnipose Image Analysis Tool",
+            image: "../Images/napari-omnipose.png",
+            description: "Collaborated with Dr. James Grimshaw at Newcastle University’s Centre for Bacterial Cell Biology to develop a Python-based image analysis tool for epiflorescence microscopy, enabling quantification of fluorescent signals relative to specific cell morphologies. Leveraged techniques such as skeletonisation and Sobel Edge detection in combination with prexisting deep neural networks, significantly reducing the time required for researchers to label and measure cell images.",
+            link: "https://github.com/phil-daniel/napari-omnipose",
+            additional: "Technologies Used: Python, Scikit-image, Cellpose/Omnipose, Napari",
+        },
         'game-of-life': {
             title: "Parallel and Distribution Implementations of Conway's Game of Life",
             image: "../Images/gol.png",

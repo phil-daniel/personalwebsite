@@ -17,6 +17,12 @@ export default function Projects() {
             <div className="card-wrapper">
                 <div className="card-grid">
                     <ProjectCard
+                        image = "./Images/napari-omnipose.png"
+                        title = "Napari Omnipose Image Analysis Tool"
+                        text = "A Python-based image analysis tool for epiflorescence microscopy which enables the quantification of fluorescent signals relative to specific cell morphologies."
+                        path = "/project/napari-omnipose"
+                    />
+                    <ProjectCard
                         image = "./Images/website.png"
                         title = "Portfolio Website"
                         text = "A website I built using React.js and CSS to improve my frontend development skills and showcase some of the projects that I have done in the past."
