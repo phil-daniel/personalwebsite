@@ -11,7 +11,7 @@ export default function ProjectPage() {
         'game-of-life': {
             title: "Parallel and Distribution Implementations of Conway's Game of Life",
             image: "../Images/gol.png",
-            description: "Parallel and Distributed implementations of Conway's Game Of Life using Golang, with corresponding benchmarks showing performance differences between versions, including testing the usage of channels vs pure memory sharing (using traditional synchronisation mechanisms - mutex locks, semaphores and condition variabes",
+            description: "Parallel and Distributed implementations of Conway's Game Of Life using Golang, with corresponding benchmarks showing performance differences between versions, including testing the usage of channels vs pure memory sharing (using traditional synchronisation mechanisms such as mutex locks, semaphores and condition variabes",
             link: "",
             additional: "Technologies Used: GoLang, AWS",
         },
